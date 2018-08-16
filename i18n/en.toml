@@ -1,13 +1,10 @@
 # See https://github.com/nicksnyder/go-i18n for format documentation and some tools.
 
 [home_hero_title]
-other = "ETS<sup>2</sup> is a <span>Enterprise</span>, <span>Technology</span>, and <span>Solutions</span> company."
+other = "ETS&sup2; is a <span>Managed IT Services</span> provider. We help Enterprises in <span>Technology Adoption</span>, <span>Reducing Costs</span>, <span>Accelerating Time to Market</span> and <span>Focusing on their core Business</span>"
 
 [home_hero_getting_started]
 other = "Get Started"
-
-[home_hero_donate]
-other = "Donate"
 
 [home_major_sponsors]
 other = "Major Sponsors and Donors"
@@ -23,9 +20,6 @@ other = "Subscribe <a href=\"{{ .Permalink }}\">via RSS</a>"
 
 [footer_support_us]
 other = "Support a more secure and privacy-respecting Web."
-
-[footer_donate]
-other = "Donate"
 
 [footer_policies]
 other = """

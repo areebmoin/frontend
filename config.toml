@@ -27,34 +27,30 @@ enableMissingTranslationPlaceholders = true
 
 [languages]
 [languages.en]
-title = "ETSSquare - Enterprise Technology Solutions and Services"
+title = "Enterprise Technology Solutions and Services Provider"
 languageName ="English"
 # Weight used for sorting.
 weight = 1
 description = """
-  Let&rsquo;s&nbsp;Encrypt is a free, automated, and open certificate
-  authority brought to you by the non-profit Internet Security Research Group (ISRG).
+  ETS&sup2; is a Managed IT Services provider. We help Enterprises in technology adoption, reducing costs, accelerating time to market, and focusing on their core business.
 """
 [[languages.en.menu.main]]
- name = "Get Help"
+ name = "Technologies"
  weight = 20
- url = "https://community.etssquare.com/"
+ url = "/technologies/"
  [[languages.en.menu.main]]
- name = "Donate"
+ name = "Solutions & Services"
  weight = 30
- identifier = "donate"
- url = "/donate/"
+ identifier = "solutions"
+ [[languages.en.menu.main]]
+ name = "Blog"
+ weight = 40
+ url = "/blog/"
  [[languages.en.menu.main]]
  name = "About Us"
- weight = 40
+ weight = 60
  identifier = "about"
  url = "/about/"
- [[languages.en.menu.main]]
- name = "Service Status"
- weight = 60
- identifier = "status"
- parent = "about"
- url = "https://etssquare.com.status.io/"
 
 # Be explicit about the output formats. We only want an RSS feed for the home page.
 [outputs]

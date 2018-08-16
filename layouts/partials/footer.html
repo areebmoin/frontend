@@ -1,14 +1,3 @@
-{{ if and (ne .Section "docs") (not .Params.no_donate_footer) }}
-<div class="donate-footer">
-  <div class="wrapper text-center">
-    <h2>{{ i18n "footer_support_us" }}</h2>
-    <div class="buttons">
-      <a class="accent" href="{{ "donate/" | relLangURL }}">{{ i18n "footer_donate" }}</a>
-    </div>
-  </div>
-</div>
-{{ end }}
-
 <footer class="site-footer">
 
   <div class="wrapper">
