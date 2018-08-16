@@ -22,10 +22,6 @@
     // Positioning context for the mobile navigation icon
     position: relative;
 
-  .linux-foundation-link {
-    float: right;
-    margin-top: 5px;
-
     @include media-query($on-palm) {
       float: none;
     }
@@ -37,7 +33,6 @@
         margin: 0 auto;
       }
     }
-  }
 }
 
 .site-title {
@@ -316,7 +311,26 @@
     }
 }
 
-
+.etssquare-collab-footer {
+  background: url(/images/etssquare-collab-bg.png);
+  border-top: 1px solid #e8e8e8;
+  color: #393939;
+  font-size: 11px;
+  line-height: 16px;
+  padding-bottom: 15px;
+  padding-top: 15px;  
+  margin-bottom: 0px;
+  
+  p {
+    margin-bottom: 5px;
+  }
+  
+  * {
+    &:last-child {
+      margin-bottom: 0; // Remove bottom margin from last element
+    }
+  }
+}
 
 /**
  * Page content
