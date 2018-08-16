@@ -27,7 +27,7 @@ enableMissingTranslationPlaceholders = true
 
 [languages]
 [languages.en]
-title = "Enterprise Technology Solutions and Services Provider"
+title = "ETS² - Enterprise Technology Solutions and Services Provider"
 languageName ="English"
 # Weight used for sorting.
 weight = 1

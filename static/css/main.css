@@ -637,10 +637,6 @@ pre > code { border: 0; padding-right: 0; padding-left: 0; }
 
 .hero.slim h1 span { color: #1678D3; }
 
-.sponsors h1, .sponsors h2 { margin-top: 30px; margin-bottom: 0; }
-
-@media screen and (max-width: 730px) { .sponsors img { max-height: 70px; width: auto; } }
-
 .home { margin-top: 0; }
 
 .home .grid-container { padding-top: 0; }
